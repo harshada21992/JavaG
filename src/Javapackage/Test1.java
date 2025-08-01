@@ -8,7 +8,7 @@ public class Test1 {
 	        System.setProperty("webdriver.chrome.driver", "D:\\\\Selenium\\\\chromedriver-win64\\\\chromedriver-win64\\\\chromedriver.exe");
 	        WebDriver driver = new ChromeDriver();
 	        driver.get("https://www.google.com");
-	        System.out.println("Title Display12016: " + driver.getTitle());
+	        System.out.println("Title Display120136: " + driver.getTitle());
 	        driver.quit();
 	    }
 	}
